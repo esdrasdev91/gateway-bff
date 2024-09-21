@@ -20,6 +20,6 @@ public interface ReportRestClient {
 
     @GET
     @Path("/data")
-    List<OpportunityDTO> requestopportunitiesData();
+    List<OpportunityDTO> requestOpportunitiesData();
 
 }
