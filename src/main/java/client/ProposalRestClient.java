@@ -23,6 +23,9 @@ public interface ProposalRestClient {
     @POST
     Response createProposal(ProposalDetailsDTO proposalDetails);
 
+    @POST
+    Response updateProposal(ProposalDetailsDTO proposalDetails);
+
     @DELETE
     @Path("/{id}")
     Response deleteProposal(@PathParam("id") long id);
